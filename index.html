@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scatter Plot with Filters and Tooltips</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        svg {
+            background-color: #f9f9f9;
+        }
+        .bubble {
+            stroke: #333;
+            stroke-width: 2px;
+        }
+        .filter-container {
+            margin-bottom: 20px;
+        }
+        select {
+            margin-right: 20px;
+            padding: 10px;
+            font-size: 14px;
+        }
+        /* Tooltip style */
+        .tooltip {
+            position: absolute;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            pointer-events: none;
+            font-size: 12px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h2>Scatter Plot with Filters and Tooltips</h2>
+    <div class="filter-container">
+        <label for="regionFilter">Region:</label>
+        <select id="regionFilter">
+            <option value="all">All</option>
+        </select>
+        <label for="partnerFilter">Partner Name:</label>
+        <select id="partnerFilter">
+            <option value="all">All</option>
+        </select>
+        <label for="verticalFilter">Vertical:</label>
+        <select id="verticalFilter">
+            <option value="all">All</option>
+        </select>
+    </div>
+    <svg id="chart" width="900" height="600"></svg>
+
+    <!-- Tooltip element -->
+    <div id="tooltip" class="tooltip"></div>
+
+    <script>
+        // Dimensions and margins
+        const margin = {top: 20, right: 20, bottom: 50, left: 70};
+        const width = 900 - margin.left - margin.right;
+        const height = 600 - margin.top - margin.bottom;
+
+        // Create SVG canvas
+        const svg = d3.select("#chart")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        // Create tooltip element
+        const tooltip = d3.select("#tooltip");
+
+        // Load CSV data
+        d3.csv("data.csv").then(function(data) {
+            // Parse the data
+            data.forEach(function(d) {
+                d.inc_trial_conversion = +d.inc_trial_conversion.replace('%', '');  // Convert to numeric value
+            });
+
+            // Scales
+            const xScale = d3.scaleBand()
+                .domain(data.map(d => d.Month))
+                .range([0, width])
+                .padding(0.1);
+
+            const yScale = d3.scaleLinear()
+                .domain([0, d3.max(data, d => d.inc_trial_conversion)])
+                .nice()
+                .range([height, 0]);
+
+            const sizeScale = d3.scaleLinear()
+                .domain([0, d3.max(data, d => d.inc_trial_conversion)])
+                .range([5, 30]);  // Bubble size range
+
+            const color = d3.scaleOrdinal(d3.schemeCategory10);
+
+            // Add X axis
+            svg.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(xScale));
+
+            // Add Y axis
+            svg.append("g")
+                .call(d3.axisLeft(yScale).ticks(10).tickFormat(d => d + "%"));
+
+            // Populate dropdown filters
+            populateDropdown("regionFilter", data, "region");
+            populateDropdown("partnerFilter", data, "partner_name");
+            populateDropdown("verticalFilter", data, "vertical");
+
+            // Initial scatter plot
+            let bubbles = svg.selectAll(".bubble")
+                .data(data)
+                .enter()
+                .append("circle")
+                .attr("class", "bubble")
+                .attr("cx", d => xScale(d.Month) + xScale.bandwidth() / 2)
+                .attr("cy", d => yScale(d.inc_trial_conversion))
+                .attr("r", d => sizeScale(d.inc_trial_conversion))
+                .attr("fill", d => color(d.region))
+                .on("mouseover", handleMouseOver)
+                .on("mousemove", handleMouseMove)
+                .on("mouseout", handleMouseOut);
+
+            // Dropdown change events
+            d3.select("#regionFilter").on("change", updateBubbles);
+            d3.select("#partnerFilter").on("change", updateBubbles);
+            d3.select("#verticalFilter").on("change", updateBubbles);
+
+            // Update scatter plot based on filters
+            function updateBubbles() {
+                const selectedRegion = d3.select("#regionFilter").property("value");
+                const selectedPartner = d3.select("#partnerFilter").property("value");
+                const selectedVertical = d3.select("#verticalFilter").property("value");
+
+                const filteredData = data.filter(d => {
+                    return (selectedRegion === "all" || d.region === selectedRegion) &&
+                           (selectedPartner === "all" || d.partner_name === selectedPartner) &&
+                           (selectedVertical === "all" || d.vertical === selectedVertical);
+                });
+
+                bubbles = svg.selectAll(".bubble")
+                    .data(filteredData, d => d.Month + d.region + d.partner_name + d.vertical);
+
+                // Exit old elements
+                bubbles.exit().remove();
+
+                // Enter new elements
+                bubbles.enter()
+                    .append("circle")
+                    .attr("class", "bubble")
+                    .attr("cx", d => xScale(d.Month) + xScale.bandwidth() / 2)
+                    .attr("cy", d => yScale(d.inc_trial_conversion))
+                    .attr("r", d => sizeScale(d.inc_trial_conversion))
+                    .attr("fill", d => color(d.region))
+                    .on("mouseover", handleMouseOver)
+                    .on("mousemove", handleMouseMove)
+                    .on("mouseout", handleMouseOut);
+
+                // Update existing elements
+                bubbles.transition()
+                    .duration(500)
+                    .attr("cx", d => xScale(d.Month) + xScale.bandwidth() / 2)
+                    .attr("cy", d => yScale(d.inc_trial_conversion))
+                    .attr("r", d => sizeScale(d.inc_trial_conversion))
+                    .attr("fill", d => color(d.region));
+            }
+
+            // Tooltip functions
+            function handleMouseOver(event, d) {
+                tooltip.transition().duration(200).style("opacity", 1);
+
+                tooltip.html(`
+                    <strong>Month:</strong> ${d.Month}<br>
+                    <strong>Region:</strong> ${d.region}<br>
+                    <strong>Partner:</strong> ${d.partner_name}<br>
+                    <strong>Vertical:</strong> ${d.vertical}<br>
+                    <strong>Conversion:</strong> ${d.inc_trial_conversion}%
+                `);
+            }
+
+            function handleMouseMove(event, d) {
+                tooltip
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 20) + "px");
+            }
+
+            function handleMouseOut(event, d) {
+                tooltip.transition().duration(200).style("opacity", 0);
+            }
+
+            // Populate dropdowns with unique values from the data
+            function populateDropdown(dropdownId, data, key) {
+                const uniqueValues = Array.from(new Set(data.map(d => d[key])));
+                const dropdown = d3.select(`#${dropdownId}`);
+
+                uniqueValues.forEach(value => {
+                    dropdown.append("option")
+                        .attr("value", value)
+                        .text(value);
+                });
+            }
+
+        }).catch(function(error) {
+            console.log("Error loading CSV file:", error);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,481 @@
+Month,region,partner_name,vertical,inc_trial_conversion
+January,EMEA,Samsung,Mobile OEM,0.36%
+January,APAC,KT,Telco,0.32%
+January,EMEA,Turkcell,Telco,0.50%
+January,EMEA,Xiaomi,Mobile OEM,0.14%
+January,EMEA,Turk Telekom,Telco,0.32%
+January,APAC,Samsung,Mobile OEM,0.62%
+January,APAC,Oplus,Mobile OEM,0.01%
+January,AMS,G1,Media & Ent,0.74%
+January,EMEA,Vodafone,Telco,0.14%
+January,AMS,Google Nest,CE & Devices,0.22%
+January,AMS,YouTube TV,Media & Ent,0.02%
+January,EMEA,Samsung,Mobile OEM,0.33%
+January,AMS,Best Buy,Retail & SuperApps,0.05%
+January,APAC,KT,Telco,0.31%
+January,APAC,Flipkart,Retail & SuperApps,0.17%
+January,APAC,Google Nest,CE & Devices,0.06%
+January,APAC,Google Nest,CE & Devices,0.07%
+January,EMEA,Google Nest,CE & Devices,0.06%
+January,EMEA,Xiaomi,Mobile OEM,0.17%
+January,AMS,Best Buy,Retail & SuperApps,0.09%
+January,EMEA,Vodafone TR IB,Telco,0.33%
+January,EMEA,Turkcell,Telco,0.58%
+January,EMEA,G1,Media & Ent,0.17%
+January,AMS,Google Fi IB,Telco,0.32%
+January,APAC,WearOS,Mobile OEM,0.04%
+January,APAC,Rovio Angry Birds,Gaming,0.03%
+January,AMS,Xiaomi,Mobile OEM,0.01%
+January,AMS,Rovio Angry Birds,Gaming,0.07%
+January,APAC,KT,Telco,0.40%
+January,AMS,G1,Media & Ent,0.74%
+January,APAC,G1,Media & Ent,0.25%
+January,AMS,Google Fi IB,Telco,0.13%
+January,APAC,Rakuten Mobile,Telco,0.05%
+January,AMS,Xiaomi,Mobile OEM,0.13%
+January,APAC,G1,Media & Ent,0.23%
+January,EMEA,Turkcell,Telco,0.40%
+January,AMS,Samsung,Mobile OEM,0.99%
+January,APAC,Samsung,Mobile OEM,1.19%
+January,APAC,Flipkart,Retail & SuperApps,0.21%
+January,APAC,KDDI IB,Telco,0.60%
+January,APAC,Oplus,Mobile OEM,0.01%
+January,AMS,Google Nest,CE & Devices,0.24%
+January,AMS,Google Nest,CE & Devices,0.20%
+January,AMS,Google Fi IB,Telco,0.15%
+January,APAC,WearOS,Mobile OEM,0.03%
+February,EMEA,Pixel,Mobile OEM,0.03%
+February,EMEA,Xiaomi,Mobile OEM,0.05%
+February,AMS,Samsung,Mobile OEM,0.56%
+February,APAC,LG U+,Telco,0.31%
+February,AMS,G1,Media & Ent,0.01%
+February,AMS,Best Buy,Retail & SuperApps,0.10%
+February,APAC,Rakuten Mobile,Telco,0.04%
+February,EMEA,Xiaomi,Mobile OEM,0.07%
+February,APAC,Google Nest,CE & Devices,0.10%
+February,EMEA,Vodafone UK IB,Telco,0.03%
+February,AMS,miHoYo,Gaming,0.15%
+February,APAC,Docomo,Telco,0.01%
+February,AMS,Rappi,Retail & SuperApps,0.02%
+February,APAC,KDDI IB,Telco,0.62%
+February,APAC,miHoYo,Gaming,0.02%
+February,APAC,G1,Media & Ent,0.21%
+February,AMS,T-Mobile,Telco,0.02%
+February,APAC,AIS TH IB,Telco,0.02%
+February,EMEA,Vodafone,Telco,0.18%
+February,APAC,KT,Telco,0.45%
+February,APAC,Samsung,Mobile OEM,0.98%
+February,EMEA,Vodafone,Telco,0.14%
+February,APAC,KDDI IB,Telco,0.61%
+February,APAC,AIS TH IB,Telco,0.02%
+February,AMS,Xiaomi,Mobile OEM,0.03%
+February,EMEA,Google Nest,CE & Devices,0.05%
+February,APAC,Softbank IB,Telco,1.04%
+February,APAC,Rakuten Mobile,Telco,0.08%
+February,APAC,WearOS,Mobile OEM,0.04%
+February,APAC,miHoYo,Gaming,0.09%
+February,APAC,LG U+,Telco,0.23%
+February,EMEA,WearOS,Mobile OEM,0.01%
+February,APAC,Optus AU IB,Telco,0.01%
+February,EMEA,Turk Telekom,Telco,0.29%
+February,APAC,TWM TW IB,Telco,0.12%
+February,AMS,Best Buy,Retail & SuperApps,0.07%
+February,EMEA,Turkcell,Telco,0.37%
+February,APAC,AIS TH IB,Telco,0.03%
+March,AMS,Chromebook,Mobile OEM,0.11%
+March,APAC,G1,Media & Ent,0.22%
+March,AMS,Pixel,Mobile OEM,0.05%
+March,AMS,Best Buy,Retail & SuperApps,0.06%
+March,AMS,T-Mobile,Telco,0.03%
+March,APAC,Samsung,Mobile OEM,0.94%
+March,APAC,AIS,Telco,0.05%
+March,EMEA,miHoYo,Gaming,0.07%
+March,APAC,Google Nest,CE & Devices,0.09%
+March,AMS,Rappi,Retail & SuperApps,0.03%
+March,EMEA,Sony Bravia,Living Room,0.01%
+March,EMEA,WearOS,Mobile OEM,0.01%
+March,EMEA,Vodafone,Telco,0.14%
+March,AMS,miHoYo,Gaming,0.01%
+March,APAC,Pixel,Mobile OEM,0.07%
+March,EMEA,WearOS,Mobile OEM,0.01%
+March,APAC,Times Prime,Mobile OEM,0.07%
+March,AMS,Best Buy,Retail & SuperApps,0.09%
+March,APAC,Xiaomi,Mobile OEM,0.09%
+March,AMS,WearOS,Mobile OEM,0.06%
+March,APAC,Chromebook,Mobile OEM,0.02%
+March,APAC,Softbank IB,Telco,0.40%
+March,APAC,Docomo JP IB,Telco,0.07%
+March,APAC,Samsung,Mobile OEM,0.64%
+March,APAC,Oplus,Mobile OEM,0.05%
+March,APAC,KDDI IB,Telco,0.60%
+March,AMS,Chromebook,Mobile OEM,0.10%
+March,APAC,TWM TW IB,Telco,0.14%
+March,APAC,SSG GMarket,Retail & SuperApps,0.07%
+March,APAC,TWM TW IB,Telco,0.15%
+March,EMEA,Turk Telekom,Telco,0.24%
+March,APAC,TWM TW IB,Telco,0.15%
+March,APAC,KT,Telco,0.38%
+March,EMEA,WearOS,Mobile OEM,0.01%
+March,AMS,Google Fi IB,Telco,0.14%
+March,APAC,GPay,Banking & eWallets,0.07%
+March,APAC,Pixel,Mobile OEM,0.10%
+March,APAC,WearOS,Mobile OEM,0.03%
+March,EMEA,WearOS,Mobile OEM,0.01%
+March,APAC,KT,Telco,0.37%
+March,EMEA,Xiaomi,Mobile OEM,0.22%
+March,EMEA,Samsung,Mobile OEM,0.60%
+March,APAC,Google Nest,CE & Devices,0.07%
+March,APAC,AIS TH IB,Telco,0.02%
+March,APAC,Xiaomi,Mobile OEM,0.12%
+March,APAC,KDDI IB,Telco,0.58%
+March,APAC,Pixel,Mobile OEM,0.07%
+March,AMS,Telcel MX IB,Telco,0.01%
+April,APAC,Rakuten Mobile,Telco,0.04%
+April,APAC,TWM TW IB,Telco,0.13%
+April,EMEA,Xiaomi,Mobile OEM,0.10%
+April,APAC,Optus AU IB,Telco,0.01%
+April,APAC,AIS,Telco,0.03%
+April,EMEA,Vodafone UK IB,Telco,0.02%
+April,APAC,G1,Media & Ent,0.22%
+April,EMEA,Turkcell,Telco,0.78%
+April,AMS,Google Nest,CE & Devices,0.27%
+April,APAC,Samsung,Mobile OEM,1.00%
+April,APAC,Softbank IB,Telco,2.79%
+April,AMS,Xiaomi,Mobile OEM,0.07%
+April,AMS,Google Fi IB,Telco,0.67%
+April,EMEA,Google Nest,CE & Devices,0.05%
+April,EMEA,Sony Bravia,Living Room,0.01%
+April,APAC,LG U+,Telco,0.38%
+April,AMS,YouTube TV,Media & Ent,0.34%
+April,AMS,Samsung,Mobile OEM,0.51%
+April,AMS,G1,Media & Ent,0.72%
+April,APAC,Rakuten Mobile,Telco,0.04%
+April,AMS,Pixel,Mobile OEM,0.05%
+April,AMS,Best Buy,Retail & SuperApps,0.15%
+April,APAC,Pixel,Mobile OEM,0.07%
+April,APAC,KDDI IB,Telco,0.72%
+April,APAC,Flipkart,Retail & SuperApps,0.21%
+April,APAC,Rakuten Mobile,Telco,0.07%
+April,AMS,Chromebook,Mobile OEM,0.13%
+April,EMEA,Samsung,Mobile OEM,0.45%
+April,AMS,WearOS,Mobile OEM,0.05%
+April,EMEA,miHoYo,Gaming,0.01%
+April,EMEA,Turkcell,Telco,0.36%
+April,AMS,Sony Bravia,Living Room,0.01%
+April,APAC,Optus AU IB,Telco,0.01%
+April,AMS,TIM BR IB,Telco,0.03%
+April,APAC,KDDI IB,Telco,0.63%
+April,EMEA,Samsung,Mobile OEM,0.67%
+April,APAC,Optus AU IB,Telco,0.01%
+April,APAC,Softbank IB,Telco,1.70%
+April,AMS,WearOS,Mobile OEM,0.06%
+April,APAC,KDDI IB,Telco,0.70%
+April,APAC,Docomo JP IB,Telco,0.49%
+April,APAC,Docomo JP IB,Telco,0.33%
+April,APAC,miHoYo,Gaming,0.01%
+April,APAC,miHoYo,Gaming,0.01%
+April,AMS,Samsung,Mobile OEM,0.91%
+April,AMS,Samsung,Mobile OEM,0.63%
+April,EMEA,Vodafone UK IB,Telco,0.01%
+April,AMS,Sony Bravia,Living Room,0.01%
+May,EMEA,WearOS,Mobile OEM,0.01%
+May,APAC,KT,Telco,0.40%
+May,APAC,Xiaomi,Mobile OEM,0.14%
+May,AMS,WearOS,Mobile OEM,0.07%
+May,APAC,Rakuten Mobile,Telco,0.04%
+May,APAC,WearOS,Mobile OEM,0.04%
+May,APAC,Optus AU IB,Telco,0.01%
+May,AMS,Google Fi IB,Telco,0.12%
+May,AMS,G1,Media & Ent,0.66%
+May,APAC,WearOS,Mobile OEM,0.03%
+May,EMEA,Vodafone,Telco,0.16%
+May,AMS,Xiaomi,Mobile OEM,0.11%
+May,EMEA,Chromebook,Mobile OEM,0.04%
+May,APAC,Softbank IB,Telco,0.42%
+May,AMS,Google Fi IB,Telco,0.15%
+May,EMEA,Vodafone,Telco,0.18%
+May,EMEA,Google Nest,CE & Devices,0.05%
+May,AMS,Pixel,Mobile OEM,0.05%
+May,APAC,Oplus,Mobile OEM,0.07%
+May,APAC,Pixel,Mobile OEM,0.06%
+May,EMEA,G1,Media & Ent,0.17%
+May,APAC,TWM TW IB,Telco,0.14%
+May,APAC,GPay,Banking & eWallets,0.14%
+May,EMEA,Xiaomi,Mobile OEM,0.29%
+May,AMS,Sony Bravia,Living Room,0.01%
+May,AMS,WearOS,Mobile OEM,0.07%
+May,APAC,Times Prime,Mobile OEM,0.07%
+May,AMS,TIM BR IB,Telco,0.03%
+May,APAC,Pixel,Mobile OEM,0.05%
+May,AMS,Xiaomi,Mobile OEM,0.09%
+May,EMEA,Pixel,Mobile OEM,0.04%
+May,EMEA,WearOS,Mobile OEM,0.01%
+May,EMEA,Oplus,Mobile OEM,0.01%
+May,APAC,Samsung,Mobile OEM,0.88%
+May,APAC,KDDI IB,Telco,0.62%
+May,APAC,Rakuten Mobile,Telco,0.08%
+May,APAC,KDDI IB,Telco,0.68%
+May,EMEA,G1,Media & Ent,0.19%
+May,APAC,Pixel,Mobile OEM,0.08%
+May,AMS,Rappi,Retail & SuperApps,0.01%
+May,APAC,miHoYo,Gaming,0.01%
+June,EMEA,Vodafone,Telco,0.19%
+June,EMEA,Google Nest,CE & Devices,0.07%
+June,EMEA,Turkcell,Telco,0.58%
+June,APAC,WearOS,Mobile OEM,0.03%
+June,AMS,Google Fi IB,Telco,0.13%
+June,APAC,WearOS,Mobile OEM,0.03%
+June,APAC,LG U+,Telco,0.46%
+June,AMS,TIM BR IB,Telco,0.01%
+June,EMEA,Pixel,Mobile OEM,0.02%
+June,EMEA,Turkcell,Telco,0.48%
+June,APAC,LG U+,Telco,0.19%
+June,EMEA,Samsung,Mobile OEM,0.70%
+June,EMEA,Google Nest,CE & Devices,0.05%
+June,AMS,Samsung,Mobile OEM,0.79%
+June,APAC,Pixel,Mobile OEM,0.07%
+June,APAC,LG U+,Telco,0.27%
+June,APAC,Oplus,Mobile OEM,0.03%
+June,APAC,Oplus,Mobile OEM,0.01%
+June,EMEA,WearOS,Mobile OEM,0.01%
+June,EMEA,miHoYo,Gaming,0.02%
+June,APAC,TWM TW IB,Telco,0.11%
+June,EMEA,Google Nest,CE & Devices,0.09%
+June,EMEA,Pixel,Mobile OEM,0.04%
+June,AMS,G1,Media & Ent,0.82%
+June,EMEA,Sony Bravia,Living Room,0.01%
+June,APAC,Flipkart,Retail & SuperApps,0.20%
+June,EMEA,Google Nest,CE & Devices,0.07%
+June,AMS,TIM BR IB,Telco,0.02%
+June,APAC,Samsung,Mobile OEM,0.57%
+June,APAC,KT,Telco,0.31%
+June,AMS,WearOS,Mobile OEM,0.06%
+June,APAC,WearOS,Mobile OEM,0.03%
+June,AMS,Samsung,Mobile OEM,0.77%
+June,EMEA,Chromebook,Mobile OEM,0.03%
+June,EMEA,Vodafone TR IB,Telco,0.33%
+June,APAC,G1,Media & Ent,0.27%
+June,EMEA,Turkcell,Telco,0.48%
+June,EMEA,WearOS,Mobile OEM,0.02%
+June,AMS,Pixel,Mobile OEM,0.06%
+June,APAC,AIS TH IB,Telco,0.02%
+June,AMS,G1,Media & Ent,0.74%
+July,APAC,Samsung,Mobile OEM,1.08%
+July,APAC,Flipkart,Retail & SuperApps,0.13%
+July,AMS,YouTube TV,Media & Ent,0.09%
+July,AMS,G1,Media & Ent,0.74%
+July,EMEA,Oplus,Mobile OEM,0.01%
+July,APAC,KDDI IB,Telco,0.66%
+July,AMS,Google Nest,CE & Devices,0.18%
+July,EMEA,Pixel,Mobile OEM,0.05%
+July,AMS,Pixel,Mobile OEM,0.06%
+July,EMEA,Sony Bravia,Living Room,0.01%
+July,APAC,Flipkart,Retail & SuperApps,0.25%
+July,APAC,Google Nest,CE & Devices,0.09%
+July,EMEA,Turkcell,Telco,0.57%
+July,EMEA,G1,Media & Ent,0.20%
+July,EMEA,Chromebook,Mobile OEM,0.01%
+July,APAC,Samsung,Mobile OEM,0.91%
+July,AMS,Rappi,Retail & SuperApps,0.03%
+July,EMEA,Vodafone UK IB,Telco,0.02%
+July,AMS,Pixel,Mobile OEM,0.06%
+July,EMEA,Rovio Angry Birds,Gaming,0.06%
+July,APAC,Softbank IB,Telco,1.08%
+July,APAC,AIS,Telco,0.01%
+July,EMEA,Vodafone UK IB,Telco,0.02%
+July,APAC,AIS TH IB,Telco,0.03%
+July,AMS,Google Fi IB,Telco,0.13%
+July,APAC,Flipkart,Retail & SuperApps,0.14%
+July,EMEA,Pixel,Mobile OEM,0.05%
+July,APAC,WearOS,Mobile OEM,0.04%
+July,APAC,miHoYo,Gaming,0.01%
+July,APAC,G1,Media & Ent,0.16%
+July,EMEA,Turk Telekom,Telco,0.27%
+July,APAC,Pixel6 & KDDI,Mobile OEM,0.01%
+July,APAC,LG U+,Telco,0.27%
+July,APAC,Softbank IB,Telco,0.69%
+July,EMEA,Samsung,Mobile OEM,0.51%
+July,AMS,Samsung,Mobile OEM,0.92%
+July,APAC,Softbank IB,Telco,0.56%
+July,EMEA,G1,Media & Ent,0.16%
+July,APAC,G1,Media & Ent,0.19%
+July,APAC,Google Nest,CE & Devices,0.06%
+July,AMS,T-Mobile,Telco,0.01%
+July,APAC,Samsung,Mobile OEM,0.91%
+July,AMS,Pixel,Mobile OEM,0.07%
+July,APAC,Softbank IB,Telco,0.48%
+July,AMS,Xiaomi,Mobile OEM,0.04%
+July,EMEA,Pixel,Mobile OEM,0.05%
+July,AMS,YouTube TV,Media & Ent,0.23%
+July,APAC,Times Prime,Mobile OEM,0.03%
+July,AMS,Google Nest,CE & Devices,0.26%
+July,APAC,KT,Telco,0.33%
+August,APAC,Docomo JP IB,Telco,0.47%
+August,APAC,TWM TW IB,Telco,0.14%
+August,AMS,TIM BR IB,Telco,0.03%
+August,AMS,Samsung,Mobile OEM,0.42%
+August,APAC,SSG GMarket,Retail & SuperApps,0.09%
+August,APAC,Rakuten Mobile,Telco,0.04%
+August,AMS,Sony Bravia,Living Room,0.01%
+August,EMEA,Xiaomi,Mobile OEM,0.17%
+August,EMEA,Vodafone UK IB,Telco,0.01%
+August,EMEA,Vodafone,Telco,0.17%
+August,EMEA,Vodafone TR IB,Telco,0.32%
+August,APAC,Chromebook,Mobile OEM,0.02%
+August,EMEA,Turk Telekom,Telco,0.13%
+August,APAC,Docomo JP IB,Telco,0.34%
+August,APAC,Rakuten Mobile,Telco,0.06%
+August,AMS,Chromebook,Mobile OEM,0.11%
+August,APAC,Optus AU IB,Telco,0.01%
+August,EMEA,Pixel,Mobile OEM,0.04%
+August,APAC,Samsung,Mobile OEM,0.61%
+August,EMEA,Pixel,Mobile OEM,0.06%
+August,APAC,Softbank IB,Telco,0.69%
+August,AMS,T-Mobile,Telco,0.01%
+August,AMS,Sony Bravia,Living Room,0.01%
+August,AMS,YT Kids Newsletter,Media & Ent,0.01%
+August,APAC,Flipkart,Retail & SuperApps,0.21%
+August,EMEA,Samsung,Mobile OEM,0.49%
+August,EMEA,WearOS,Mobile OEM,0.01%
+August,AMS,Rappi,Retail & SuperApps,0.01%
+August,EMEA,G1,Media & Ent,0.18%
+August,AMS,TIM BR IB,Telco,0.01%
+August,AMS,miHoYo,Gaming,0.03%
+August,AMS,Pixel,Mobile OEM,0.08%
+August,APAC,Rakuten Mobile,Telco,0.03%
+August,EMEA,Samsung,Mobile OEM,0.34%
+September,EMEA,Turk Telekom,Telco,0.11%
+September,EMEA,Google Nest,CE & Devices,0.05%
+September,AMS,Samsung,Mobile OEM,0.92%
+September,EMEA,Xiaomi,Mobile OEM,0.01%
+September,APAC,Pixel,Mobile OEM,0.05%
+September,EMEA,Turkcell,Telco,0.61%
+September,APAC,Flipkart,Retail & SuperApps,0.20%
+September,APAC,Chromebook,Mobile OEM,0.02%
+September,EMEA,Vodafone,Telco,0.14%
+September,APAC,LG U+,Telco,0.32%
+September,APAC,Docomo JP IB,Telco,0.44%
+September,EMEA,Vodafone UK IB,Telco,0.03%
+September,EMEA,G1,Media & Ent,0.19%
+September,APAC,Flipkart,Retail & SuperApps,0.22%
+September,EMEA,Vodafone UK IB,Telco,0.01%
+September,AMS,Google Nest,CE & Devices,0.17%
+September,APAC,Docomo JP IB,Telco,0.64%
+September,APAC,G1,Media & Ent,0.21%
+September,APAC,Xiaomi,Mobile OEM,0.13%
+September,AMS,Pixel,Mobile OEM,0.06%
+September,APAC,Times Prime,Mobile OEM,0.08%
+September,APAC,Flipkart,Retail & SuperApps,0.24%
+September,EMEA,Turk Telekom,Telco,0.41%
+September,APAC,Rakuten Mobile,Telco,0.08%
+September,EMEA,Turk Telekom,Telco,0.06%
+September,APAC,Flipkart,Retail & SuperApps,0.18%
+September,APAC,KakaoPay,Banking & eWallets,0.01%
+September,APAC,SSG GMarket,Retail & SuperApps,0.06%
+September,APAC,Google Nest,CE & Devices,0.11%
+September,AMS,Sony Bravia,Living Room,0.01%
+September,EMEA,Turk Telekom,Telco,0.39%
+September,APAC,LG U+,Telco,0.32%
+September,AMS,Chromebook,Mobile OEM,0.02%
+September,EMEA,Samsung,Mobile OEM,0.71%
+October,AMS,Pixel,Mobile OEM,0.11%
+October,EMEA,Google Nest,CE & Devices,0.07%
+October,EMEA,Vodafone UK IB,Telco,0.01%
+October,AMS,Oplus,Mobile OEM,0.01%
+October,AMS,Best Buy,Retail & SuperApps,0.09%
+October,AMS,Google Fi IB,Telco,0.23%
+October,EMEA,WearOS,Mobile OEM,0.01%
+October,EMEA,Turk Telekom,Telco,0.07%
+October,EMEA,Vodafone UK IB,Telco,0.01%
+October,APAC,Times Prime,Mobile OEM,0.07%
+October,APAC,AIS TH IB,Telco,0.03%
+October,EMEA,Samsung,Mobile OEM,0.46%
+October,EMEA,Samsung,Mobile OEM,0.68%
+October,EMEA,Oplus,Mobile OEM,0.01%
+October,APAC,Optus AU IB,Telco,0.01%
+October,APAC,Optus AU IB,Telco,0.01%
+October,AMS,WearOS,Mobile OEM,0.06%
+October,EMEA,Pixel,Mobile OEM,0.05%
+October,AMS,Rappi,Retail & SuperApps,0.01%
+October,APAC,TWM TW IB,Telco,0.15%
+October,APAC,AIS TH IB,Telco,0.02%
+October,AMS,WearOS,Mobile OEM,0.06%
+October,AMS,WearOS,Mobile OEM,0.08%
+October,AMS,Best Buy,Retail & SuperApps,0.06%
+October,EMEA,Vodafone UK IB,Telco,0.01%
+October,AMS,Oplus,Mobile OEM,0.01%
+October,APAC,Google Nest,CE & Devices,0.07%
+October,APAC,AIS TH IB,Telco,0.03%
+October,APAC,AIS TH IB,Telco,0.02%
+October,APAC,KT,Telco,0.51%
+November,AMS,TIM BR IB,Telco,0.03%
+November,EMEA,Vodafone,Telco,0.12%
+November,APAC,Google Nest,CE & Devices,0.07%
+November,AMS,Best Buy,Retail & SuperApps,0.07%
+November,EMEA,Sony Bravia,Living Room,0.01%
+November,EMEA,Pixel,Mobile OEM,0.04%
+November,AMS,Xiaomi,Mobile OEM,0.02%
+November,AMS,TIM BR IB,Telco,0.03%
+November,EMEA,G1,Media & Ent,0.20%
+November,APAC,WearOS,Mobile OEM,0.03%
+November,APAC,Xiaomi,Mobile OEM,0.03%
+November,APAC,Xiaomi,Mobile OEM,0.01%
+November,EMEA,Xiaomi,Mobile OEM,0.30%
+November,APAC,LG U+,Telco,0.28%
+November,EMEA,Vodafone TR IB,Telco,0.05%
+November,EMEA,G1,Media & Ent,0.23%
+November,APAC,Softbank IB,Telco,0.38%
+November,EMEA,Sony Bravia,Living Room,0.01%
+November,AMS,G1,Media & Ent,0.89%
+November,AMS,Xiaomi,Mobile OEM,0.11%
+November,AMS,Google Nest,CE & Devices,0.19%
+November,AMS,miHoYo,Gaming,0.01%
+November,AMS,T-Mobile,Telco,0.02%
+November,EMEA,Xiaomi,Mobile OEM,0.21%
+November,EMEA,Turk Telekom,Telco,0.51%
+November,EMEA,Chromebook,Mobile OEM,0.04%
+November,EMEA,Vodafone,Telco,0.02%
+November,AMS,Google Fi IB,Telco,0.14%
+November,AMS,Best Buy,Retail & SuperApps,0.14%
+November,AMS,Google Nest,CE & Devices,0.30%
+November,APAC,LG U+,Telco,0.27%
+November,AMS,Xiaomi,Mobile OEM,0.07%
+November,AMS,Pixel,Mobile OEM,0.06%
+November,APAC,G1,Media & Ent,0.17%
+November,AMS,Sony Bravia,Living Room,0.01%
+November,APAC,Pixel,Mobile OEM,0.06%
+November,APAC,KT,Telco,0.31%
+December,APAC,KDDI IB,Telco,0.59%
+December,EMEA,G1,Media & Ent,0.16%
+December,APAC,Pixel,Mobile OEM,0.06%
+December,AMS,G1,Media & Ent,0.61%
+December,AMS,WearOS,Mobile OEM,0.05%
+December,AMS,Xiaomi,Mobile OEM,0.14%
+December,APAC,KT,Telco,0.25%
+December,AMS,Best Buy,Retail & SuperApps,0.10%
+December,APAC,Optus AU IB,Telco,0.01%
+December,AMS,Xiaomi,Mobile OEM,0.02%
+December,AMS,Samsung,Mobile OEM,0.93%
+December,AMS,Pixel,Mobile OEM,0.09%
+December,APAC,Xiaomi,Mobile OEM,0.01%
+December,APAC,Optus AU IB,Telco,0.01%
+December,EMEA,Turkcell,Telco,0.49%
+December,AMS,Rappi,Retail & SuperApps,0.03%
+December,EMEA,Pixel,Mobile OEM,0.04%
+December,AMS,WearOS,Mobile OEM,0.07%
+December,APAC,Docomo JP IB,Telco,0.37%
+December,AMS,G1,Media & Ent,0.62%
+December,APAC,WearOS,Mobile OEM,0.03%
+December,EMEA,WearOS,Mobile OEM,0.01%
+December,APAC,Softbank IB,Telco,0.59%
+December,APAC,Pixel,Mobile OEM,0.09%
+December,APAC,KakaoPay,Banking & eWallets,0.01%
+December,EMEA,Chromebook,Mobile OEM,0.03%
+December,APAC,Optus AU IB,Telco,0.01%
+December,EMEA,Xiaomi,Mobile OEM,0.03%
+December,AMS,WearOS,Mobile OEM,0.06%
+December,APAC,LG U+,Telco,0.31%
+December,APAC,Chromebook,Mobile OEM,0.01%
+December,APAC,Pixel6 & KDDI,Mobile OEM,0.01%
+December,AMS,Samsung,Mobile OEM,0.47%
+December,AMS,Google Nest,CE & Devices,0.19%
